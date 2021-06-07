@@ -1,0 +1,10 @@
+各位使用@font-face加载icon font的时候可以都转成base64的，不仅可以加快页面加载速度，而且一开始也不会有方框，也不会莫名被浏览器block
+
+像这样用：
+src: url(data:application/font-woff;charset=utf-8;base64,xxx) format('woff'),
+  url('xxx/xxx.ttf?xxx') format('truetype'),
+  url('xxx/xxx.svg?xxx#xxx') format('svg');
+woff转成base64，留个ttf和svg做兼容
+
+
+架构的时候可以装个自动转化的插件
