@@ -11,7 +11,7 @@
 添加在最后面:
 deploy:
   type:
-git repo: https://github.com/xmanhua/xmh-blog.io.git/public
+git repo: https://github.com/my/my.io.git/public
 branch: master
 
 #5. 安装部署使用到的git插件.
